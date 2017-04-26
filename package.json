@@ -1,0 +1,13 @@
+{
+  "name": "gqlog",
+  "version": "0.0.2",
+  "main":"./gqlog.js",
+  "description":"gqlog is a small and quick logging framework. It allows simple operations like console.log to become log(), error(), debug(). Further allowing debugs to be ignored when deploy (setting.level=3)",
+  "license":"MIT",
+  "repository":"https://github.com/goldfiction/gqlog.git",
+  "public":true,
+  "private":false,
+  "dependencies":{
+    "gqemail":""
+  }
+}
