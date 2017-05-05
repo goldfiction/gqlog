@@ -83,7 +83,7 @@ function tryEmail(msg,prepend,postpend){
 
 function error(error,level){
     level=level||5;
-    if(level>=setting.level) {
+    if(error && level>=setting.level) {
         if(error.stack) {
             var stack = error.stack;
             error = JSON.stringify(error, null, 2);
